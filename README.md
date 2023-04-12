@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Full stack Project - Itchy Feet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A feature-rich, responsive, and user-friendly platform that can help people find and book tours from all over the world.
 
-## Available Scripts
+Check out the website here : https://itchyfeet.vercel.app/home
 
-In the project directory, you can run:
+A fully functional platform for finding tours all over the world. Using MongoDB as our database, ReactJS and CSS for our frontend, and ExpressJS and NodeJS for our backend.
+Additionally, implementing Stripe for payment processing is a way to provide secure and streamlined payment experience for the users. 
+We have deployed our frontend on Vercel and our backend is on Render. We have considered the hosting options to optimize our website's performance.
 
-### `npm start`
+The tours section and my booking section add significant value to the website by allowing users to explore different tour options and keep track of their bookings.
+## Authors
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Developed by 
+Digvijay Sethi (digvijaysethi1@gmail.com), 
+Samriddhi Puranik (samriddhi.18puranik@gmail.com), 
+and Ritik Chourey (ritikchoureyd90@gmail.com)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Frontend:** React, CSS
 
-### `npm run build`
+**Backend:** MongoDB, Node, Express
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshot 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Home Page 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![ItchyFeet - Google Chrome 4_11_2023 2_39_31 AM](https://user-images.githubusercontent.com/69351209/230999417-f98d1dca-3643-4826-b6c3-9cda4d23bb20.png)
+![ItchyFeet - Google Chrome 4_11_2023 2_37_32 AM](https://user-images.githubusercontent.com/69351209/230999316-c550025c-b685-4c57-b2b9-75cf8afb0913.png)
 
-### `npm run eject`
+### Tours Section
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![ItchyFeet - Google Chrome 4_11_2023 2_40_17 AM](https://user-images.githubusercontent.com/69351209/230999581-bad1cbc1-784f-46d0-afe5-55053946ef81.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the project
 
-## Learn More
+```bash
+  git clone https://github.com/justxdv/itchy-feet-frontend.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Go to the project directory
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  cd frontend
+```
 
-### Code Splitting
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  npm install
+```
 
-### Analyzing the Bundle Size
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  npm start
+```
 
-### Making a Progressive Web App
+### Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Clone the project
 
-### Advanced Configuration
+```bash
+  git clone https://github.com/justxdv/itchy-feet-backend.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Go to the project directory
 
-### Deployment
+```bash
+  cd backend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Start the server
 
-### `npm run build` fails to minify
+```bash
+  node index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
